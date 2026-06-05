@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 5%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 7%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 15 100% 55%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 15 100% 55%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 15 100% 55%;
+    --radius: 0rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+    background-image: 
+      radial-gradient(circle at 70% 30%, rgba(255, 87, 34, 0.05) 0%, transparent 50%),
+      linear-gradient(to bottom, #0a0a0a, #050505);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline uppercase tracking-tighter;
+  }
+}
+
+.font-stencil {
+  font-family: 'Saira Stencil One', cursive;
+  text-transform: uppercase;
+  font-weight: 400;
+  /* Use stroke to eat into the letters, widening the internal stencil gaps (cracks) */
+  -webkit-text-stroke: 1.2px hsl(var(--background));
+  paint-order: stroke fill;
+  /* Tighten letter spacing to fix the "spelling gap" */
+  letter-spacing: -0.01em;
+  font-style: normal !important;
+}
+
+.stencil-text {
+  letter-spacing: 0.05em;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-style: normal !important;
+}
+
+.hud-border {
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.btn-slanted {
+  clip-path: polygon(0 0, 100% 0, 92% 100%, 0 100%);
+}
+
+.scanline-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(255, 87, 34, 0.02) 50%
+  );
+  background-size: 100% 4px;
+  pointer-events: none;
+  animation: scanline 10s linear infinite;
+}
+
+.hazard-stripes {
+  background: repeating-linear-gradient(
+    90deg,
+    #000,
+    #000 15px,
+    rgba(255, 87, 34, 0.5) 15px,
+    rgba(255, 87, 34, 0.5) 30px
+  );
+  background-size: 60px 100%;
+  animation: hazard-move-h 3s linear infinite;
+}
+
+@keyframes hazard-move-h {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}

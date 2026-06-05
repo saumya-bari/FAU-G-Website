@@ -1,0 +1,574 @@
+{
+  "placeholderImages": [
+    {
+      "id": "logo-main",
+      "description": "Official FAU-G Domination Tactical Logo",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeX5QxgQ8Vst9CDg8xfKFrt9sNn8mWaQwGmw&s",
+      "imageHint": "tactical logo"
+    },
+    {
+      "id": "hero-video-bg",
+      "description": "Official FAU-G character background",
+      "imageUrl": "https://static.prod-images.emergentagent.com/jobs/bb85105c-2c3e-49d4-a933-6afb7f986b47/images/8064156bcbc214bb752fce5273489a10d2dc14d9a1d22f5cf405313957060cb2.png",
+      "imageHint": "military soldier"
+    },
+    {
+      "id": "story-main",
+      "description": "Cinematic Story Visual",
+      "imageUrl": "http://storage.googleapis.com/dot9adda.appspot.com/faug_loading/All.jpg",
+      "imageHint": "military squad"
+    },
+    {
+      "id": "mode-tdm",
+      "description": "Team Deathmatch Cinematic",
+      "imageUrl": "https://storage.googleapis.com/dot9adda.appspot.com/faug_loading/12.jpg",
+      "imageHint": "combat squad"
+    },
+    {
+      "id": "mode-sniper",
+      "description": "Sniper Only Mode Cinematic",
+      "imageUrl": "https://storage.googleapis.com/dot9adda.appspot.com/faug_loading/13.jpg",
+      "imageHint": "sniper scope"
+    },
+    {
+      "id": "mode-weapon",
+      "description": "Weapon Domination Cinematic",
+      "imageUrl": "https://storage.googleapis.com/dot9adda.appspot.com/faug_loading/14.jpg",
+      "imageHint": "weapon arsenal"
+    },
+    {
+      "id": "mode-kod",
+      "description": "Kiss of Death Mode",
+      "imageUrl": "https://storage.googleapis.com/dot9adda.appspot.com/faug_loading/11.jpg",
+      "imageHint": "tactical elimination"
+    },
+    {
+      "id": "mode-1v1",
+      "description": "1v1 Domination Mode",
+      "imageUrl": "https://storage.googleapis.com/dot9adda.appspot.com/faug_loading/15.jpg",
+      "imageHint": "solo duel"
+    },
+    {
+      "id": "mode-lonewolf",
+      "description": "Lone Wolf Mode Cinematic",
+      "imageUrl": "https://sm.ign.com/ign_in/screenshot/default/faug-google-playstore-no-caption-2_wegh.jpg",
+      "imageHint": "military survivor"
+    },
+    {
+      "id": "regiment-visual",
+      "description": "Regiment Rank System Visual",
+      "imageUrl": "https://sm.ign.com/t/ign_in/screenshot/default/faug-domination-5_eubm.600.jpg",
+      "imageHint": "military rank"
+    },
+    {
+      "id": "char-dhillon",
+      "description": "Dhillon - Elite Soldier character",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779798767/DHILLON_hz6zv1.jpg",
+      "imageHint": "soldier portrait"
+    },
+    {
+      "id": "char-dhillon-full",
+      "description": "Dhillon - Cinematic Profile Full",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779798766/photo_6102868075301507481_y_x8ulo8.jpg",
+      "imageHint": "elite soldier"
+    },
+    {
+      "id": "char-kiran",
+      "description": "Kiran character",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779798768/KIRAN_bbi2f8.jpg",
+      "imageHint": "soldier portrait"
+    },
+    {
+      "id": "char-kiran-full",
+      "description": "Kiran - Cinematic Profile Full",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779798764/photo_6102868075301507478_y_u9vhyv.jpg",
+      "imageHint": "field operative"
+    },
+    {
+      "id": "char-adhira",
+      "description": "Adhira character",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779798760/ADHIRA_hytlyc.jpg",
+      "imageHint": "soldier portrait"
+    },
+    {
+      "id": "char-adhira-full",
+      "description": "Adhira - Cinematic Profile Full",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779798760/photo_6102868075301507477_y_ome0ts.jpg",
+      "imageHint": "tactician"
+    },
+    {
+      "id": "char-saya",
+      "description": "Saya character",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779798771/SAYA_ep5jh5.jpg",
+      "imageHint": "soldier portrait"
+    },
+    {
+      "id": "char-saya-full",
+      "description": "Saya - Cinematic Profile Full",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779798760/photo_6102868075301507476_y_wr3ycw.jpg",
+      "imageHint": "infiltrator"
+    },
+    {
+      "id": "char-vegh",
+      "description": "Vegh character",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779798773/VEGH_irz091.jpg",
+      "imageHint": "soldier portrait"
+    },
+    {
+      "id": "char-vegh-full",
+      "description": "Vegh - Cinematic Profile Full",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779798760/photo_6102868075301507475_y_prwsnx.jpg",
+      "imageHint": "speedster"
+    },
+    {
+      "id": "char-agni",
+      "description": "Agni character",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779798760/AGNI_puofxr.jpg",
+      "imageHint": "soldier portrait"
+    },
+    {
+      "id": "char-agni-full",
+      "description": "Agni - Cinematic Profile Full",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779798766/photo_6102868075301507482_y_jmla5v.jpg",
+      "imageHint": "heavy soldier"
+    },
+    {
+      "id": "char-raaz",
+      "description": "Raaz character",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779798770/RAAZ_jdefz6.jpg",
+      "imageHint": "soldier portrait"
+    },
+    {
+      "id": "char-raaz-full",
+      "description": "Raaz - Cinematic Profile Full",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779798764/photo_6102868075301507479_y_qs6usj.jpg",
+      "imageHint": "intelligence officer"
+    },
+    {
+      "id": "char-veesh",
+      "description": "Veesh character",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779798772/VEESH_jin6qu.jpg",
+      "imageHint": "soldier portrait"
+    },
+    {
+      "id": "char-veesh-full",
+      "description": "Veesh - Cinematic Profile Full",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779798764/photo_6102868075301507480_y_sh0xzp.jpg",
+      "imageHint": "tactical operative"
+    },
+    {
+      "id": "char-mazhala",
+      "description": "Mazhala character",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779798769/MAZHALA_rekwmv.jpg",
+      "imageHint": "soldier portrait"
+    },
+    {
+      "id": "char-mazhala-full",
+      "description": "Mazhala - Cinematic Profile Full",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779798759/photo_6102868075301507474_y_bxkdkl.jpg",
+      "imageHint": "technician"
+    },
+    {
+      "id": "char-nibir",
+      "description": "Nibir character",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779798770/NIBIR_pbpdjj.jpg",
+      "imageHint": "soldier portrait"
+    },
+    {
+      "id": "char-nibir-full",
+      "description": "Nibir - Cinematic Profile Full",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779798759/photo_6102868075301507473_y_apknon.jpg",
+      "imageHint": "strength specialist"
+    },
+    {
+      "id": "weapon-ak203",
+      "description": "AK-203 Assault Rifle",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949730/AK-203_hpm3s1.jpg",
+      "imageHint": "assault rifle"
+    },
+    {
+      "id": "weapon-galil",
+      "description": "GALIL Assault Rifle",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949737/GALIL_ui4lzt.jpg",
+      "imageHint": "assault rifle"
+    },
+    {
+      "id": "weapon-tavor",
+      "description": "TAVOR Assault Rifle",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949754/TAVOR_ivwkuy.jpg",
+      "imageHint": "assault rifle"
+    },
+    {
+      "id": "weapon-m4a4",
+      "description": "M4A4 Assault Rifle",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949741/M4A4_tefwzz.jpg",
+      "imageHint": "assault rifle"
+    },
+    {
+      "id": "weapon-ak47",
+      "description": "AK-47 Assault Rifle",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949731/AK-47_oobfyj.jpg",
+      "imageHint": "assault rifle"
+    },
+    {
+      "id": "weapon-m4a1",
+      "description": "M4A1 Assault Rifle",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949741/M4A1_n3babb.jpg",
+      "imageHint": "assault rifle"
+    },
+    {
+      "id": "weapon-mp9",
+      "description": "MP9 SMG",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949745/MP9_a7kvfo.jpg",
+      "imageHint": "smg weapon"
+    },
+    {
+      "id": "weapon-mac10",
+      "description": "MAC 10 SMG",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949743/MAC_10_kaehbr.jpg",
+      "imageHint": "smg weapon"
+    },
+    {
+      "id": "weapon-ump45",
+      "description": "UMP 45 SMG",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949755/UMP_45_hrkggu.jpg",
+      "imageHint": "smg weapon"
+    },
+    {
+      "id": "weapon-ppbizon",
+      "description": "PP BIZON SMG",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949750/PP_BIZON_wxswri.jpg",
+      "imageHint": "smg weapon"
+    },
+    {
+      "id": "weapon-mp5",
+      "description": "MP5 SMG",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949744/MP5_dihcg3.jpg",
+      "imageHint": "smg weapon"
+    },
+    {
+      "id": "weapon-mp7",
+      "description": "MP7 SMG",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949745/MP7_mk0z7w.jpg",
+      "imageHint": "smg weapon"
+    },
+    {
+      "id": "weapon-p90",
+      "description": "P 90 SMG",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949747/P_90_cmc5m7.jpg",
+      "imageHint": "smg weapon"
+    },
+    {
+      "id": "weapon-sawedoff",
+      "description": "SAWED OFF Heavy Weapon",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949751/SAWED_OFF_g2sqqg.jpg",
+      "imageHint": "heavy weapon"
+    },
+    {
+      "id": "weapon-mag7",
+      "description": "MAG-7 Heavy Weapon",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949743/MAG-7_pxnivn.jpg",
+      "imageHint": "heavy weapon"
+    },
+    {
+      "id": "weapon-xm1014",
+      "description": "XM1014 Heavy Weapon",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949756/XM1014_aro2ae.jpg",
+      "imageHint": "heavy weapon"
+    },
+    {
+      "id": "weapon-nova",
+      "description": "NOVA Heavy Weapon",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949747/NOVA_zgxg8m.jpg",
+      "imageHint": "heavy weapon"
+    },
+    {
+      "id": "weapon-rpd",
+      "description": "RPD Heavy Machine Gun",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949750/RPD_gp9n2f.jpg",
+      "imageHint": "machine gun"
+    },
+    {
+      "id": "weapon-negev",
+      "description": "NEGEV Heavy Machine Gun",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949746/NEGEV_dh3k08.jpg",
+      "imageHint": "machine gun"
+    },
+    {
+      "id": "weapon-ssgscout",
+      "description": "SSG-SCOUT Sniper Rifle",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949752/SSG-SCOUT_tko9k7.jpg",
+      "imageHint": "sniper rifle"
+    },
+    {
+      "id": "weapon-awp",
+      "description": "AWP Sniper Rifle",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949731/AWP_h4a6n1.jpg",
+      "imageHint": "sniper rifle"
+    },
+    {
+      "id": "weapon-dragunov",
+      "description": "DRGUNOV-SCO Sniper Rifle",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949735/DRGUNOV-SCO_v5wzbt.jpg",
+      "imageHint": "sniper rifle"
+    },
+    {
+      "id": "weapon-scar20",
+      "description": "SCAR-20 Sniper Rifle",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949750/SCAR-20_wfi6dv.jpg",
+      "imageHint": "sniper rifle"
+    },
+    {
+      "id": "weapon-glock18",
+      "description": "GLOCK 18 Sidearm",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949738/GLOCK_18_ett3mz.jpg",
+      "imageHint": "tactical pistol"
+    },
+    {
+      "id": "weapon-beretta",
+      "description": "Dual BERETTA Sidearms",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949731/BERETTA_mo650h.jpg",
+      "imageHint": "dual pistols"
+    },
+    {
+      "id": "weapon-p250",
+      "description": "P250 Sidearm",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949748/P250_dh0kpa.jpg",
+      "imageHint": "compact pistol"
+    },
+    {
+      "id": "weapon-tec9",
+      "description": "TEC-9 Sidearm",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949754/TEC_9_qx8sal.jpg",
+      "imageHint": "semi-auto pistol"
+    },
+    {
+      "id": "weapon-cz75",
+      "description": "CZ75-AUTO Sidearm",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949734/CZ_75_AUTO_dmqqyb.jpg",
+      "imageHint": "auto pistol"
+    },
+    {
+      "id": "weapon-usps",
+      "description": "USP-S Suppressed Sidearm",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949755/USP-S_hsy22o.jpg",
+      "imageHint": "suppressed pistol"
+    },
+    {
+      "id": "weapon-deagle",
+      "description": "DESERT EAGLE Sidearm",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949735/DESERT_EAGLE_tplr4y.jpg",
+      "imageHint": "heavy pistol"
+    },
+    {
+      "id": "melee-boot",
+      "description": "Tactical Boot Melee",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949731/BOOT_igk0q1.jpg",
+      "imageHint": "tactical boot"
+    },
+    {
+      "id": "melee-kabar",
+      "description": "KA-BAR Combat Knife",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949739/KA_BAR_o2kocv.jpg",
+      "imageHint": "combat knife"
+    },
+    {
+      "id": "melee-rambo",
+      "description": "RAMBO Survival Knife",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949750/RAMBO_g6jy0j.jpg",
+      "imageHint": "survival knife"
+    },
+    {
+      "id": "melee-skeleton",
+      "description": "SKELETON Throwing Knife",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949751/SKELETON_j5pwpl.jpg",
+      "imageHint": "throwing knife"
+    },
+    {
+      "id": "melee-tactical",
+      "description": "Tactical Combat Blade",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949753/TACTICAL_KNIFE_xe98an.jpg",
+      "imageHint": "tactical blade"
+    },
+    {
+      "id": "melee-m9",
+      "description": "M9 Bayonet",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949742/M9-BAYONET_azjyhx.jpg",
+      "imageHint": "m9 bayonet"
+    },
+    {
+      "id": "melee-commando",
+      "description": "COMMANDO Elite Knife",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949732/COMMANDO_pyn92s.jpg",
+      "imageHint": "commando knife"
+    },
+    {
+      "id": "melee-huntsman",
+      "description": "HUNTSMAN Tactical Knife",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949738/HUNTSMAN_lewvex.jpg",
+      "imageHint": "huntsman knife"
+    },
+    {
+      "id": "melee-kukri",
+      "description": "KUKRI Curved Blade",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949740/KUKRI_xhhhu8.jpg",
+      "imageHint": "kukri blade"
+    },
+    {
+      "id": "melee-butterfly",
+      "description": "BUTTERFLY Folding Knife",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949731/BUTTERFLY_a6hcrt.jpg",
+      "imageHint": "butterfly knife"
+    },
+    {
+      "id": "melee-karambit",
+      "description": "KARAMBIT Talon Blade",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949740/KARAMBIT_xkk1os.jpg",
+      "imageHint": "karambit knife"
+    },
+    {
+      "id": "throw-frag",
+      "description": "Frag Grenade",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949736/FRAG_GRENADE_sqgvu7.jpg",
+      "imageHint": "explosive grenade"
+    },
+    {
+      "id": "throw-flash",
+      "description": "Flash Grenade",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949736/FLASH_GRENADE_dm6qih.jpg",
+      "imageHint": "tactical grenade"
+    },
+    {
+      "id": "throw-smoke",
+      "description": "Smoke Grenade",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949752/SMOKE_GRENADE_wffbkw.jpg",
+      "imageHint": "tactical smoke"
+    },
+    {
+      "id": "throw-molotov",
+      "description": "Molotov",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1779949744/MOLTOV_g6ezkx.jpg",
+      "imageHint": "incendiary device"
+    },
+    {
+      "id": "ambassador-akshay",
+      "description": "Akshay Kumar Ambassador",
+      "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/wide_landscape/public/d8/images/canvas/2021/08/24/f5e9c703-e6aa-4296-8f6d-fe3abf0aa68f_6c0c23d7.jpg?itok=oo68GFYj&v=1629799688",
+      "imageHint": "actor portrait"
+    },
+    {
+      "id": "ceo-vishal",
+      "description": "Vishal Gondal CEO",
+      "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQHkXCTulzBEGw/profile-displayphoto-crop_800_800/B4DZvAj8rzJQAI-/0/1768462209651?e=1781740800&v=beta&t=JoF7rsQwcz7BLMZwCqXXVmoXuJVJSQtnYtoEDsPNUIo",
+      "imageHint": "tech entrepreneur"
+    },
+    {
+      "id": "logo-dot9",
+      "description": "Deepak Ail - Dot9 Games Leader",
+      "imageUrl": "https://i0.wp.com/gamingonphone.com/wp-content/uploads/2024/06/deepak-ali.jpg",
+      "imageHint": "studio leader"
+    },
+    {
+      "id": "logo-dot9-brand",
+      "description": "Dot9 Games Logo",
+      "imageUrl": "https://media.licdn.com/dms/image/v2/C4E0BAQGOHdHeT1uP-Q/company-logo_200_200/company-logo_200_200/0/1640242315290?e=2147483647&v=beta&t=bXxegcKLe3jyN12xg5fS25VZQbVIgci4n2uRmXeQMJQ",
+      "imageHint": "brand logo"
+    },
+    {
+      "id": "logo-ncore",
+      "description": "nCore Games Logo",
+      "imageUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQHPYiaFAk-FuQ/company-logo_200_200/company-logo_200_200/0/1659505154112?e=2147483647&v=beta&t=lfC1Pk-oUBps9TT5PENO9aU3RSoDefHnmVtSkQG_VLY",
+      "imageHint": "game publisher"
+    },
+    {
+      "id": "logo-nazara",
+      "description": "Nitish Mittersain - Nazara Leader",
+      "imageUrl": "https://india.entrepreneur.com/wp-content/uploads/sites/5/2024/07/1721989862-Bitcoinvaluehistory4.png",
+      "imageHint": "tech leader"
+    },
+    {
+      "id": "logo-nazara-brand",
+      "description": "Nazara Technologies Logo",
+      "imageUrl": "https://www.unlistedsharebrokers.com/wp-content/uploads/2020/07/NAZARA-TECHNOLOGIES-LTD.jpg",
+      "imageHint": "brand logo"
+    },
+    {
+      "id": "weapon-insas",
+      "description": "Backup Sidearm",
+      "imageUrl": "https://picsum.photos/seed/backup/400/300",
+      "imageHint": "tactical pistol"
+    },
+    {
+      "id": "creator-scout",
+      "description": "Official Content Creator",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1780571149/photo_6109561713112846643_y_zp8yyf.jpg",
+      "imageHint": "gaming creator"
+    },
+    {
+      "id": "creator-chaplin",
+      "description": "Official Content Creator",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1780571149/photo_6109561713112846644_x_ixtfbx.jpg",
+      "imageHint": "gaming creator"
+    },
+    {
+      "id": "fbl-championship",
+      "description": "FBL 2.0 LAN Championship Visual",
+      "imageUrl": "https://sm.ign.com/t/ign_in/screenshot/default/resized-blurred-1200x675-1_s9tj.2560.jpg",
+      "imageHint": "esports championship"
+    },
+    {
+      "id": "fbl1-img1",
+      "description": "FBL Season 1 Visual 1",
+      "imageUrl": "https://pbs.twimg.com/media/G20VwbgWMAA3xz4?format=jpg&name=small",
+      "imageHint": "esports tournament"
+    },
+    {
+      "id": "fbl1-img2",
+      "description": "FBL Season 1 Visual 2",
+      "imageUrl": "https://pbs.twimg.com/media/G20VwbhXsAI-Pck?format=jpg&name=360x360",
+      "imageHint": "gaming competition"
+    },
+    {
+      "id": "fbl1-img3",
+      "description": "FBL Season 1 Visual 3",
+      "imageUrl": "https://pbs.twimg.com/media/G20VwbfWMAA9n3X?format=jpg&name=360x360",
+      "imageHint": "tactical victory"
+    },
+    {
+      "id": "event-gamingcon",
+      "description": "GamingCon 2025 Event Visual",
+      "imageUrl": "https://pbs.twimg.com/media/G7E0qAkb0AA08qr?format=jpg&name=small",
+      "imageHint": "gaming event"
+    },
+    {
+      "id": "map-singo-lane",
+      "description": "Singo Lane Map Visual",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1780635758/singo_lane_wwoamm.jpg",
+      "imageHint": "urban map"
+    },
+    {
+      "id": "map-surang",
+      "description": "Surang Map Visual",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1780635758/surang_ffzxhf.jpg",
+      "imageHint": "tactical tunnels"
+    },
+    {
+      "id": "map-godi",
+      "description": "Godi Map Visual",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1780635758/godi_vsjrpo.jpg",
+      "imageHint": "industrial zone"
+    },
+    {
+      "id": "map-basti",
+      "description": "Basti Map Visual",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1780635758/basti_r8kfkq.jpg",
+      "imageHint": "residential complex"
+    },
+    {
+      "id": "map-tibba",
+      "description": "Tibba Map Visual",
+      "imageUrl": "https://res.cloudinary.com/dhc0phwyg/image/upload/v1780635757/tibba_vnywqe.jpg",
+      "imageHint": "desert dunes"
+    }
+  ]
+}
