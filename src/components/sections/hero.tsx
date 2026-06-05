@@ -102,17 +102,14 @@ export function Hero() {
         {/* Stats Footer */}
         <div className="mt-16 md:mt-24 pt-10 md:pt-16 border-t border-white/5 flex flex-wrap justify-center lg:justify-start gap-8 md:gap-12 max-w-3xl">
           <div className="space-y-1 text-center lg:text-left">
-            <div className="text-3xl md:text-5xl font-stencil text-white">50M+</div>
+            <div className="text-3xl md:text-5xl font-stencil text-white">1M+</div>
             <div className="text-[8px] md:text-[10px] font-bold text-white/40 tracking-[0.3em] uppercase">Downloads</div>
           </div>
           <div className="space-y-1 text-center lg:text-left">
             <div className="text-3xl md:text-5xl font-stencil text-white">5v5</div>
             <div className="text-[8px] md:text-[10px] font-bold text-white/40 tracking-[0.3em] uppercase">Tactical FPS</div>
           </div>
-          <div className="space-y-1 text-center lg:text-left">
-            <div className="text-3xl md:text-5xl font-stencil text-white">₹1Cr</div>
-            <div className="text-[8px] md:text-[10px] font-bold text-white/40 tracking-[0.3em] uppercase">Prize Pool</div>
-          </div>
+         
         </div>
       </div>
     </section>
